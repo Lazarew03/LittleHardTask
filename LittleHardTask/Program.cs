@@ -12,7 +12,7 @@ namespace LittleHardTask
         public static void Main(string[] args)
         {
            
-            Console.WriteLine("Введите номер задания(1, 2(пункт a) и 3(пункт б)): ");
+            Console.Write("Введите номер задания(1, 2(пункт a) и 3(пункт б)): ");
             int numTask = int.Parse(Console.ReadLine());
             switch (numTask)
             {
