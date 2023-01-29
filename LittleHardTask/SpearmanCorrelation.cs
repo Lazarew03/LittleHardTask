@@ -14,6 +14,7 @@ namespace LittleHardTask
         }
         public class Sort_Rank
         {
+            //такую сортировку подглядел в интернете , хоть по идее можно сделать проще 
             public void QuickX(int left, int right, ref Variables[] a)
             {
                 int l, r;
